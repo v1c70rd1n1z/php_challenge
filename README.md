@@ -70,6 +70,8 @@ It comes pre-configured with the following bundles:
   
   * [**Bootstrap**][15] - Adds support for bootstrap stylesheet template
   
+  * [**Dropzone**][17] - Adds support for Dropzone
+  
   * [**FOSRestBundle**][16] - Adds support for RESTful API
   
   * [**JMSSerializerBundle**][16] - Adds support for helping in serialization 
@@ -92,3 +94,4 @@ Keep It Simple, Enjoy! - By Victor Diniz
 [14]: http://getbootstrap.com/getting-started/
 [15]: https://guiaprogramador.com.br/desenvolvimento/symfonyJqueryBootstrap
 [16]: https://www.cloudways.com/blog/rest-api-in-symfony-3-1/
+[17]: http://www.dropzonejs.com/
