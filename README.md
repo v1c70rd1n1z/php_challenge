@@ -9,6 +9,9 @@ Welcome to the PHP Challenge for s2it Enterview First Edition - a
 fully-functional Symfony application that you can use as the skeleton for your 
 new applications.
 
+For details on how to download and get started, see the
+[Installation Guide][18].
+
 What's inside?
 --------------
 
@@ -95,3 +98,4 @@ Keep It Simple, Enjoy! - By Victor Diniz
 [15]: https://guiaprogramador.com.br/desenvolvimento/symfonyJqueryBootstrap
 [16]: https://www.cloudways.com/blog/rest-api-in-symfony-3-1/
 [17]: http://www.dropzonejs.com/
+[18]: https://github.com/v1c70rd1n1z/php_challenge/wiki
