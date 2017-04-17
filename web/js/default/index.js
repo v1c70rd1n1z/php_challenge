@@ -1,0 +1,1 @@
+Dropzone.prototype.defaultOptions.dictDefaultMessage = "Please, drag n' drop your People ShipOrders XML files here and we do the REST :)";

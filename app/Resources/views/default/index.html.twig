@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {% javascripts
+    '@dropzone_js'
+    'js/default/index.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+    {% stylesheets
+    '@dropzone_css'
+    'css/default/index.css' %}
+    <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+
+    <div class="background">
+        <form action="upload" id="my-dropzone" class="dropzone content">
+            <h1>s2it - PHP Challenge!</h1>
+            <p>This is a sample for Dragging&Dropping XML files, providing insert data into database and GET data by RESTful API.</p>
+            <p>For RESTful API test, access one of these:</p>
+            <p>
+            <blockquote>
+                http://{your_server:port}/app_dev.php/people: To get all data<br/>
+                http://{your_server:port}/app_dev.php/person/{id}: to get an specific person by Id
+            </blockquote>
+            </p>
+            <p>Keep It Simple, Enjoy. By - Victor Diniz</p>
+        </form>
+    </div>
+{% endblock %}
